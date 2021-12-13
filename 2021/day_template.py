@@ -30,8 +30,8 @@ test_data = '''replace'''
 
 if __name__ == '__main__':
     with open('input/day_x.txt') as f:
-        data = [line.rstrip() for line in f]
-        # data = [line.rstrip() for line in test_data.splitlines()]
+        # data = [line.rstrip() for line in f]
+        data = [line.rstrip() for line in test_data.splitlines()]
     # data = [int(line, 2) for line in data]
 
     print(solve(data))
